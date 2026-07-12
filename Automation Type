@@ -1,0 +1,7 @@
+ Imperative                                        Declarative                                      
+
+1.Specifies **how** to do something                 Specifies **what** the desired state should be   
+2.You define the execution steps                    You define the end result                        
+3.More manual control                               Tool decides how to achieve the state            
+4.Can be harder to maintain                         Easier to maintain and idempotent                
+5. Example tools: Bash, PowerShell, Python scripts  Example tools: Terraform, Kubernetes YAML, Bicep 
