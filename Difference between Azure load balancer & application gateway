@@ -1,0 +1,17 @@
+
+| Feature                            | Azure Load Balancer              | Azure Application Gateway             |
+| ---------------------------------- | -------------------------------- | ------------------------------------- |
+| **OSI Layer**                      | Layer 4 (Transport)              | Layer 7 (Application)                 |
+| **Protocols**                      | TCP, UDP                         | HTTP, HTTPS, WebSocket                |
+| **Traffic Type**                   | Any TCP/UDP traffic              | Web traffic only                      |
+| **Routing**                        | IP address and port              | URL, Host header, Cookies             |
+| **SSL Termination**                | ❌ No                             | ✅ Yes                                 |
+| **Web Application Firewall (WAF)** | ❌ No                             | ✅ Yes (WAF SKU)                       |
+| **Session Affinity**               | ❌ No                             | ✅ Cookie-based                        |
+| **Path-based Routing**             | ❌ No                             | ✅ Yes                                 |
+| **Host-based Routing**             | ❌ No                             | ✅ Yes                                 |
+| **URL Rewrite**                    | ❌ No                             | ✅ Yes                                 |
+| **Health Probes**                  | Basic TCP/HTTP                   | Advanced HTTP/HTTPS                   |
+| **Use Case**                       | VMs, databases, gaming, SSH, RDP | Web applications, APIs, microservices |
+
+
