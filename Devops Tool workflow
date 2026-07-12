@@ -1,0 +1,53 @@
+Developer
+    │
+    ▼
+GitHub / GitLab
+    │
+    ▼
+CI Tool (GitHub Actions / Jenkins / Azure Pipelines)
+    │
+    ├── Build application
+    ├── Run tests
+    ├── Security scan
+    └── Create artifact
+    │
+    ▼
+Artifact Repository / Container Registry
+    │
+    ▼
+Terraform
+    │
+Provision Azure/AWS Infrastructure
+    │
+    ▼
+Ansible
+    │
+Configure Servers
+    │
+    ▼
+Docker
+    │
+Build Container Image
+    │
+    ▼
+Azure Container Registry / Docker Hub
+    │
+    ▼
+Kubernetes (AKS / EKS)
+    │
+Deploy Containers
+    │
+    ▼
+Helm
+    │
+Deploy Application
+    │
+    ▼
+Prometheus + Grafana
+    │
+Monitor
+    │
+    ▼
+ELK / Loki
+    │
+Collect Logs
