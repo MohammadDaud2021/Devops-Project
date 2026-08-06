@@ -52,4 +52,16 @@
 ---
  
 ## 🌐 Connect With Me
+
+
+💼 LinkedIn: www.linkedin.com/in/
+Mohammad Daud
+ 
+📧 Email: mohammaddaud2k18@gmail.com
+ 
+---
+ 
+## ✨ Motto
+ 
+> Automate • Deploy • Scale 🚀
  
