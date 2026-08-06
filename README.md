@@ -45,7 +45,7 @@
  
 ## 📊 GitHub Stats
  
-![](https://github-readme-stats.vercel.app/api?username=vk-cloud-dev-design&show_icons=true&theme=tokyonight)
+![](https://github-readme-stats.vercel.app/api?username=MohammadDaud2021_icons=true&theme=tokyonight)
  
 ![](https://github-readme-streak-stats.herokuapp.com/?user=vk-cloud-dev-design&theme=tokyonight)
  
