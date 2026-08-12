@@ -1,4 +1,6 @@
-☁️ azure-terraform/
+## 📁 Project Structure
+
+azure-terraform/
 │
 ├── 📄 main.tf
 ├── 📄 variables.tf
@@ -9,9 +11,8 @@
 ├── 📄 README.md
 ├── 📄 .gitignore
 │
-├── 📁 modules/
-│   │
-│   ├── 📦 resource-group/
+├── 📦 modules/
+│   ├── 📁 resource-group/
 │   │   ├── 📄 main.tf
 │   │   ├── 📄 variables.tf
 │   │   └── 📄 outputs.tf
@@ -46,24 +47,24 @@
 │       ├── 📄 variables.tf
 │       └── 📄 outputs.tf
 │
-├── 📁 environments/
+├── 🌎 environments/
 │   ├── 🧪 dev/
-│   │   ├── 📄 terraform.tfvars
-│   │   └── 📄 backend.tf
+│   │   ├── terraform.tfvars
+│   │   └── backend.tf
 │   │
 │   ├── 🚀 staging/
-│   │   ├── 📄 terraform.tfvars
-│   │   └── 📄 backend.tf
+│   │   ├── terraform.tfvars
+│   │   └── backend.tf
 │   │
 │   └── 🏭 prod/
-│       ├── 📄 terraform.tfvars
-│       └── 📄 backend.tf
+│       ├── terraform.tfvars
+│       └── backend.tf
 │
-├── 📁 docs/
+├── 📚 docs/
 │   ├── 🏗️ architecture.md
 │   └── 🔐 security.md
 │
-└── 📁 .github/
-    └── 📁 workflows/
+└── ⚙️ .github/
+    └── workflows/
         ├── 🔍 terraform-plan.yml
         └── 🚀 terraform-apply.yml
