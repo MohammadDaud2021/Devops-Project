@@ -1,5 +1,6 @@
 ## 📁 Project Structure
 
+```text
 azure-terraform/
 │
 ├── 📄 main.tf
@@ -49,16 +50,16 @@ azure-terraform/
 │
 ├── 🌎 environments/
 │   ├── 🧪 dev/
-│   │   ├── terraform.tfvars
-│   │   └── backend.tf
+│   │   ├── 📄 terraform.tfvars
+│   │   └── 📄 backend.tf
 │   │
 │   ├── 🚀 staging/
-│   │   ├── terraform.tfvars
-│   │   └── backend.tf
+│   │   ├── 📄 terraform.tfvars
+│   │   └── 📄 backend.tf
 │   │
 │   └── 🏭 prod/
-│       ├── terraform.tfvars
-│       └── backend.tf
+│       ├── 📄 terraform.tfvars
+│       └── 📄 backend.tf
 │
 ├── 📚 docs/
 │   ├── 🏗️ architecture.md
@@ -68,3 +69,4 @@ azure-terraform/
     └── workflows/
         ├── 🔍 terraform-plan.yml
         └── 🚀 terraform-apply.yml
+```
