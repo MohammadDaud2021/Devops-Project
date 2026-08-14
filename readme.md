@@ -34,7 +34,6 @@
 
 💼 [LinkedIn](YOUR_LINKEDIN_URL)  
 📧 [Email](mailto:mohammaddaud2k18@gmail.com)
-📞 [Mobile](7771026618)
 
 ---
 
