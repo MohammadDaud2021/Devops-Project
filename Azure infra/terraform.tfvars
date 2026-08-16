@@ -2,7 +2,7 @@ location = "Central India"
 
 resource_group = {
   main = {
-    name = "rg-infi-lab"
+    name = "rg-nokia-lab"
   }
 }
 
