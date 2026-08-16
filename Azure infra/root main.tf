@@ -1,5 +1,5 @@
 module "resource_group" {
-  source = "./modules/resource-group"
+  source = "./resource group"
 
   for_each = var.resource_group
 
@@ -8,7 +8,7 @@ module "resource_group" {
 }
 
 module "vnet" {
-  source = "./modules/vnet"
+  source = "./VNet module"
 
   for_each = var.vnet
 
@@ -19,7 +19,7 @@ module "vnet" {
 }
 
 module "subnet" {
-  source = "./modules/subnet"
+  source = "./Subnet module"
 
   subnets = var.subnets
 
@@ -28,7 +28,7 @@ module "subnet" {
 }
 
 module "nsg" {
-  source = "./modules/nsg"
+  source = "./NSG module"
 
   for_each = var.nsgs
 
@@ -38,7 +38,7 @@ module "nsg" {
 }
 
 module "linux_vm" {
-  source = "./modules/linux-vm"
+  source = "./Linux VM module"
 
   for_each = var.vms
 
@@ -65,7 +65,7 @@ resource "azurerm_subnet_network_security_group_association" "this" {
 }
 
 module "public_ip" {
-  source = "./modules/public-ip"
+  source = "./Public IP module"
 
   name                = "pip-devops-lab"
   location            = var.location
@@ -73,7 +73,7 @@ module "public_ip" {
 }
 
 module "load_balancer" {
-  source = "./modules/load-balancer"
+  source = "./Load balancer module"
 
   name                = "lb-devops-lab"
   location            = var.location
