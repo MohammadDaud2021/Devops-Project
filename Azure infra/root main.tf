@@ -73,7 +73,7 @@ module "public_ip" {
 }
 
 module "load_balancer" {
-  source = "./Load balancer module"
+  source = "./Load Balancer module"
 
   name                = "lb-devops-lab"
   location            = var.location
