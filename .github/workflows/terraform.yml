@@ -12,6 +12,10 @@ on:
 permissions:
   contents: read
 
+      defaults:
+  run:
+    working-directory: ./Azure infra
+
 jobs:
   terraform:
     name: Terraform
@@ -23,10 +27,6 @@ jobs:
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
-
-        defaults:
-  run:
-    working-directory: ./Azure infra
 
       - name: Terraform Init
         run: terraform init
