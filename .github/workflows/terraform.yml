@@ -24,6 +24,10 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
+        defaults:
+  run:
+    working-directory: ./Azure infra
+
       - name: Terraform Init
         run: terraform init
 
