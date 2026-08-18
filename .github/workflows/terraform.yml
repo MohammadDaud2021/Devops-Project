@@ -10,18 +10,13 @@ permissions:
   id-token: write
   contents: read
 
-env:
-  TF_VAR_location: eastus   # Change to your Azure region
-
 jobs:
   terraform:
     runs-on: ubuntu-latest
 
     defaults:
-
-  run:
-
-    working-directory: ./azure-infra
+      run:
+        working-directory: ./azure-infra
 
     steps:
       - name: Checkout Repository
