@@ -13,7 +13,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Azure infra
+        working-directory: ./azure_infra
 
     steps:
       # Checkout repository
